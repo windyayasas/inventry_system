@@ -1,0 +1,99 @@
+{
+  "name": "Company",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "string",
+      "required": true
+    },
+    "taxNumber": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "number",
+      "required": true
+    },
+    "faxNumber": {
+      "type": "number"
+    },
+    "website": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "defaultPriceList": {
+      "type": "string",
+      "required": true
+    },
+    "defaultDiscount": {
+      "type": "number",
+      "required": true
+    },
+    "defaultPaymentMethod": {
+      "type": "string",
+      "required": true
+    },
+    "defaultStockLocation": {
+      "type": "string"
+    },
+    "assignedTo": {
+      "type": "string",
+      "required": true
+    },
+    "addressName": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "addressLine01": {
+      "type": "string",
+      "required": true
+    },
+    "addressLine02": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "zipCode": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

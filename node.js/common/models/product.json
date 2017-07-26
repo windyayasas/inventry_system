@@ -1,0 +1,74 @@
+{
+  "name": "Product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "productId": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "brand": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string"
+    },
+    "initialCostPrice": {
+      "type": "number",
+      "required": true
+    },
+    "buyPrice": {
+      "type": "number",
+      "required": true
+    },
+    "wholesalePrice": {
+      "type": "number",
+      "required": true
+    },
+    "retailPrice": {
+      "type": "number",
+      "required": true
+    },
+    "initialStockLocation": {
+      "type": "string",
+      "required": true
+    },
+    "initialStockOnHand": {
+      "type": "number",
+      "required": true
+    },
+    "weight": {
+      "type": "number"
+    },
+    "batchTracked": {
+      "type": "boolean",
+      "required": true
+    },
+    "productVariants": {
+      "type": "object"
+    },
+    "productPackSizes": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "InventoryUser": {
+    "dataSource": "mongodb_dev",
+    "public": true
+  },
+  "Company": {
+    "dataSource": "mongodb_dev",
+    "public": true
+  },
+  "Invoice": {
+    "dataSource": "mongodb_dev",
+    "public": true
+  },
+  "Product": {
+    "dataSource": "mongodb_dev",
+    "public": true
   }
 }
